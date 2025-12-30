@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9D9207FF2F0443C200855D0B /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9D9207FE2F0443C200855D0B /* Config.xcconfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9D52CC2B2EFEC96500B2CB7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		9D52CC1D2EFEC96300B2CB7E /* MoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D52CC2A2EFEC96500B2CB7E /* MoviesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D52CC342EFEC96500B2CB7E /* MoviesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9207FE2F0443C200855D0B /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		9D52CC142EFEC96300B2CB7E = {
 			isa = PBXGroup;
 			children = (
+				9D9207FE2F0443C200855D0B /* Config.xcconfig */,
 				9D52CC1F2EFEC96300B2CB7E /* MoviesApp */,
 				9D52CC2D2EFEC96500B2CB7E /* MoviesAppTests */,
 				9D52CC372EFEC96500B2CB7E /* MoviesAppUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D9207FF2F0443C200855D0B /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
